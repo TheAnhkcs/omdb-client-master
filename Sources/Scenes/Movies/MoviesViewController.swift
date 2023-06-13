@@ -97,7 +97,6 @@ private extension MoviesViewController {
             .asDriverOnErrorJustComplete()
         
         
-        
         let toDetailTrigger = collectionView.rx.itemSelected // tương tự didSelectedItem
             .compactMap { [unowned self] indexPath -> Movie? in
                 guard let movies = dataSource.snapshot().itemIdentifiers(inSection: .movies) as? [Movie] else {
