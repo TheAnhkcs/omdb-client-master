@@ -8,6 +8,7 @@
 import UIKit
 
 enum Constants {
+    
     enum Movies {
         static let spacing: CGFloat = 20
         static let cellRatio: CGFloat = 0.75
