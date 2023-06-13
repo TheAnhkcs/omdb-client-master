@@ -13,6 +13,7 @@ final class MoviesViewModel: ViewModelType {
         let page: Int
     }
     
+    
     private let useCase: MoviesUseCase
     private let navigator: MoviesNavigator
     
